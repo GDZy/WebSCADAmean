@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h1= devices[0].name
+  p Welcome to #{devices[1]}
+
+  table.table.table-hover
+    thead
+      tr
+        th(scope='col') Name
+        th(scope='col') Last update
+    tbody
+    for device in devices
+      tr.table-info
+        th(scope='row') #{device.name}
+        td #{device.lastUpdateTime}
+    
