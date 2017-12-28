@@ -1,0 +1,1 @@
+"D:\WebSCADA\MongoDB\bin\mongod.exe" --dbpath d:\WebSCADA\WebSCADAmean\data\db
